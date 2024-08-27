@@ -16,8 +16,8 @@ const featuredItem = [
 	},
 	{
 		image: VectorFeaturedPlace,
-		head: "Informasi tempat magang",
-		body: "Dapatkan informasi tempat magang yang tersedia dan daftar dengan mudah",
+		head: "Informasi tempat PKL",
+		body: "Dapatkan informasi tempat PKL yang tersedia dan daftar dengan mudah",
 	},
 ];
 </script>
@@ -38,11 +38,11 @@ const featuredItem = [
 				<div class="jumbotron__hero">
 					<div class="left__content">
 						<div class="text">
-							<p>kontrol dan pantau kegiatan <span>magang</span> dengan mudah dalam satu aplikasi</p>
+							<p>kontrol dan pantau kegiatan <span>PKL</span> dengan mudah dalam satu aplikasi</p>
 						</div>
 						<div class="action">
-							<a href="https://app2.internity.smkn1cibinong.sch.id" class="action__button signup" target="_blank">Daftar</a>
-							<a href="https://app2.internity.smkn1cibinong.sch.id" class="action__button signin" target="_blank">Masuk</a>
+							<a href="https://app.internity.smkn1cibinong.sch.id/register" class="action__button signup" target="_blank">Daftar</a>
+							<a href="https://app.internity.smkn1cibinong.sch.id/login" class="action__button signin" target="_blank">Masuk</a>
 						</div>
 					</div>
 					<div class="right__content">
@@ -95,10 +95,10 @@ const featuredItem = [
 			</div>
 		</section>
 
-		<footer class="copyright">
+		<footer class="copyright flex justify-center text-text-white text-center mt-10 font-semibold py-5 gap-x-10">
 			<p>Copyright 2022 © Internity-dev.github.io</p>
 
-			<NuxtLink to="/privacy">Privacy Policy</NuxtLink>
+			<NuxtLink to="/privacy" class="text-text-white hover:underline">Privacy Policy</NuxtLink>
 		</footer>
 	</main>
 </template>
@@ -251,9 +251,5 @@ section.download {
 			}
 		}
 	}
-}
-
-footer.copyright {
-	@apply text-text-white text-center mt-10 font-semibold py-5;
 }
 </style>
