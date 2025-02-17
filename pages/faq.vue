@@ -25,7 +25,7 @@ onMounted(() => {
 <template>
 <div class="max-w-4xl mx-auto px-4 py-8 text-white">
     <h1 class="text-3xl font-semibold text-center mb-6">Frequently Asked Questions (FAQ)</h1>
-
+    
     <div class="space-y-4">
       <div v-for="(item, index) in faqItems" :key="index">
         <div class="border border-gray-300 rounded-md">
@@ -41,7 +41,7 @@ onMounted(() => {
             {{ item.question }}
           </label>
           <div class="px-4 py-3 text-black bg-white border-t border-gray-300 peer-checked:block hidden">
-            <div v-html="item.answer"></div>
+            <div v-html="item.answer" class="prose"></div>
           </div>
         </div>
       </div>
