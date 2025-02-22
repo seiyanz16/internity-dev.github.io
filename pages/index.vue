@@ -99,6 +99,7 @@ const featuredItem = [
 			<p>Copyright 2022 © Internity-dev.github.io</p>
 
 			<NuxtLink to="/privacy" class="text-text-white hover:underline">Privacy Policy</NuxtLink>
+			<NuxtLink to="/faq" class="text-text-white hover:underline">FAQ</NuxtLink>
 		</footer>
 	</main>
 </template>
